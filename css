@@ -1,0 +1,97 @@
+txt {
+   overflow: hidden; /* Ensures the content is not revealed until the animation */
+   border-right: .15em solid orange; /* The typwriter cursor */
+   white-space: nowrap; /* Keeps the content on a single line */
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+     typing 3.5s steps(40, end),
+     blink-caret .75s step-end infinite;
+ }
+ 
+ /* The typing effect */
+ @keyframes typing {
+   from { width: 0 }
+   to { width: 100% }
+ }
+ 
+ /* The typewriter cursor effect */
+ @keyframes blink-caret {
+   from, to { border-color: transparent }
+   50% { border-color: orange; }
+ }
+ .curve
+ {
+     content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 145%;
+    height: 140%;
+    background-color:#000;
+    transform: translate(-4%,40%) ;
+    z-index: -1px;
+ }
+
+ 
+
+ .curve2
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 145%;
+    height: 140%;
+    background-color:rgb(255, 57, 43);
+    transform: translate(-4%,40%) ;
+    z-index: -1px;
+ }
+ .curve3
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 145%;
+    height: 140%;
+    background-color:rgb(65, 45, 238);
+    transform: translate(-4%,40%) ;
+    z-index: -1px;
+ }
+ .curve4
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 145%;
+    height: 140%;
+    background-color:rgb(236, 236, 36);
+    transform: translate(-4%,40%) ;
+    z-index: -1px;
+ }
+ .curve5
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 145%;
+    height: 140%;
+    background-color: #202731;
+    transform: translate(-4%,40%) ;
+    z-index: -1px;
+ }
+ .curve6
+ {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 145%;
+    height: 140%;
+    background-color:  #FF757F;
+    transform: translate(-4%,40%) ;
+    z-index: -1px;
+ }
